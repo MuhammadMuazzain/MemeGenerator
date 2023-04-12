@@ -1,0 +1,41 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Abyssinica SIL', serif;
+font-family: 'Golos Text', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+.Header{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+.title-img{
+  width: 19%;
+  height: 19%;
+  margin-right: auto;
+  padding: 10px;
+}
+p{
+  padding: 15px;
+}
+input{
+  width: 230px;
+  height: 35px;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  padding: 36px;
+}
+button{
+  grid-column: 1  /  -1;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: aliceblue;
+  cursor: pointer;
+}
+.memeImage{
+  max-width: 100%;
+}
